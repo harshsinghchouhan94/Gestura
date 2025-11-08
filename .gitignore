@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python / Backend
+__pycache__/
+*.pyc
+env/
+venv/
+models/*.h5
+models/*.tflite
+datasets/
+
+# Flutter / Frontend
+build/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.dart_tool/
+*.lock
+ios/Pods/
+android/.gradle/
+*.iml
+
+# General
+node_modules/
+*.log
+*.tmp
+.DS_Store
+.env
